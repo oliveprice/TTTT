@@ -1,0 +1,250 @@
+
+
+.background-image-mobile {
+    display: none;
+}
+
+.mobile-game-screen-image {
+    display: none;
+}
+
+@media (max-width: 610px) {
+
+    .background-image {
+        display: none;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .background-image-mobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 610px) {
+    .mobile-game-screen-image {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 610px) {
+    .tic-tac-toe-grid {
+        width: 65%;
+        height: 65%;
+        
+    }
+}
+
+@media (max-width: 610px) {
+    .game-screen-image {
+        display: none;
+    }
+}
+
+@media (max-width: 610px) {
+    .command-line-terminal {
+        position: relative;
+        min-width: 397px;
+        height: 290px;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 610px) {
+   .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 100px);
+        grid-gap: 5px;
+        width: 295px;
+    
+   }
+   .playing-screen #tic-tac-toe-grid .cell {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+@media (max-width: 444px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 84px);
+        grid-gap: 10px;
+        width: 265px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 84px;
+        height: 106px;    
+    
+     }
+ }
+
+ @media (max-width: 392px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 64px);
+        grid-gap: 10px;
+        width: 211px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 66px;
+        height: 106px; 
+    
+     }
+ }
+
+ @media (max-height: 614px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 69px);
+        grid-gap: 10px;
+        width: 219px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 67px;
+        height: 60px;
+    
+     }
+ }
+
+ @media (max-height: 829px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 90px);
+        grid-gap: 10px;
+        width: 285px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 90px;
+        height: 90px;
+    
+     }
+ }
+
+
+ @media (max-height: 771px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 80px);
+        grid-gap: 10px;
+        width: 266px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 80px;
+        height: 80px;
+    
+     }
+ }
+
+ @media (max-height: 692px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 70px);
+        grid-gap: 10px;
+        width: 225px;
+     
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 70px;
+        height: 70px;
+    
+     }
+ }
+
+ @media (max-height: 560px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 60px);
+        grid-gap: 10px;
+        width: 190px;
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 58px;
+        height: 50px;
+    }
+}
+
+@media (max-height: 510px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 50px);
+        grid-gap: 10px;
+        width: 165px;
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 48px;
+        height: 40px;
+    }
+}
+
+@media (max-height: 460px) {
+    .playing-screen #tic-tac-toe-grid {
+        grid-template-columns: repeat(3, 40px);
+        grid-gap: 10px;
+        width: 130px;
+    }
+    .playing-screen #tic-tac-toe-grid .cell {
+        width: 38px;
+        height: 30px;
+    }
+}
+
+
+@media (max-height: 300px) {
+    .playing-screen #tic-tac-toe-grid {
+        display: "none"
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-height: 771px) {
+    section .hero {
+     font-size: 10px;
+
+    }
+
+    .hero.logo {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 769px) {
+    section .hero {
+     font-size: 10px;
+
+    }
+
+    .hero.logo {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    section .command-container {
+        margin: 3rem 2.5rem 2.5rem 3.5rem;
+    }
+}
+
+

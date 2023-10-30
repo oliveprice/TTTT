@@ -1,0 +1,57 @@
+@import url('./gitch.css');
+@import url('./mini-classes.css');
+@import url('./tic-tac-toe.css');
+@import url('./typography.css');
+@import url('./responsive.css');
+@import url('./grid.css');
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.playing-screen {
+    width: 70vh;
+    height: 60vh;
+    position: relative; /* To make sure the child image is positioned relative to this container */
+}
+
+.game-screen-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.static-screen {
+    background-image: url('../images/gifs/static.gif');
+    /* Ensure the gif covers the entire element */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.command-line-terminal {
+    position: relative;
+    width: 900px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+
+
+.command-container {
+    margin: 3rem 1rem 2.5rem 3.5rem;
+}

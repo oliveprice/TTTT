@@ -1,0 +1,40 @@
+.tic-tac-toe-grid {
+    position: relative;
+    width: 55%;
+    height: 55%;
+    
+}
+
+.static-screen {
+    background-image: url('./images/gifs/static.gif');
+    /* Ensure the gif covers the entire element */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line {
+    position: absolute;
+    background-color: #FE3091;  
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100%;
+    left: calc(33.33% - 1px);
+    top: 0;
+}
+
+.line2 {
+    left: calc(66.67% - 1px);
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: calc(33.33% - 1px);
+}
+
+.line4 {
+    top: calc(66.67% - 1px);
+}
