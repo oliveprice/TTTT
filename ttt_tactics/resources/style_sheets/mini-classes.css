@@ -1,4 +1,8 @@
-
+.object-inliner {
+    display: flex;
+    align-items: center;
+   
+}
 .flex-vertical-center {
     display: flex;
     align-items: center;

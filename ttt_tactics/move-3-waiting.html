@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe Tactics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="icon" href="./resources/images/purp_sky.png">
+    <link rel="stylesheet" href="./resources/style_sheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="bower_components/aos/dist/aos.js"></script>
+</head>
+
+
+
+
+<body onclick="redirectToPage();">
+    <script>
+        function redirectToPage() {
+            window.location.href = "move-4.html";
+        }
+    </script>
+    <div id="preloader"></div>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <main>
+
+              <section class="flex-center-center margin-bottom-plus-1 margin-top-plus-2">
+                <div class="playing-screen flex-center-center">
+                    <img src="./resources/images/designs/game_screen.png" class="game-screen-image" alt="Game Screen">
+                    <img src="./resources/images/designs/mobile_game_screen.png" class="mobile-game-screen-image" alt="Game Screen">
+                    
+                    <section>
+              
+                       
+                        <div id="tic-tac-toe-grid">
+                            <div class="cell disabled"> <span class="player-symbol"> X </span></div>
+                            <div class="cell disabled "> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled">  <span class="oponent-symbol"> O </span></div>
+                            <div class="cell enabled"> </div>
+                            <div class="cell disabled"><div data-aos="fade-right"> <span class="player-symbol"> X </span> </div> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                    
+                        </div>
+                       
+                      </section>
+                
+                </div>
+            </section>
+      
+        
+            <section class="flex-center-center">
+                <div class="command-line-terminal margin-0">
+                    <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Background">
+                    <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Background">
+                    <div class="command-container">
+                        
+                        
+                            <div class="object-inliner margin-top-plus-2">
+                                <p> <span class="query"> [QUERY]:  WOULD YOU LIKE TO PLAY AGAINST A  </span> </p> 
+                                <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button>
+                                  <p> <span class="query"> OR A </span> </p> <button class="cybr-btn"> HUMAN<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN</span> </button>
+                                </div> 
+                               
+                                <p>[STATUS] CONNECTING YOU TO ANOTHER PLAYER... </p>
+                                <p>[INFO] PLAYER FOUND. INITIALIZING GAME BOARD... </p>
+                                <p class="action"> [INFO] YOUR TURN. MAKE YOUR FIRST MOVE.</p>
+                                <p>[STATUS] WAITING FOR OPPONENT'S MOVE...</p>
+                                <p class="action"> [INFO] YOUR TURN. MAKE YOUR MOVE.</p>
+                              
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

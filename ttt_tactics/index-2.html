@@ -16,12 +16,7 @@
 
 
 
-<body onclick="redirectToPage();">
-    <script>
-        function redirectToPage() {
-            window.location.href = "index-3.html";
-        }
-    </script>
+<body>
     <div id="preloader"></div>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
@@ -54,7 +49,14 @@
                     <div class="command-container">
                         <p class="margin-top-plus-2"> [INFO] WELCOME, USER.  </p> 
                         <div class="typewriter">
-                            <p> <span class="query-color margin-right-0"> [QUERY]: </span> WOULD YOU LIKE TO PLAY AGAINST A <span class="query-color margin-left-right-0"> HUMAN </span> OR A <span class="query-color margin-left-right-0"> BOT? </span> </p>
+                            <div class="object-inliner">
+                                <p> <span class="query"> [QUERY]: WOULD YOU LIKE TO PLAY AGAINST A </span>
+                            
+                                        <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button> 
+                                        <span class="query">  OR A  </span>
+                                        <a href="human.html">
+                                        <button class="cybr-btn"> HUMAN<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN</span> </button> </a> 
+                                        <span class="query"> ? </span> </div> </p>
                         </div>
                     </div>
                 </div>

@@ -27,12 +27,15 @@ p {
   .typewriter p.disabled {
     color: #FE3091;
     font-family: 'Source Code Pro', monospace;
-
     width: auto;
     display: inline-flex;
     letter-spacing: .15em; /* Adjust as needed */
     animation: none
       
+  }
+
+  .frozen {
+    opacity: .5;
   }
 
   
@@ -49,6 +52,23 @@ p {
   }
 
 
-  .query-color {
+  .query, .action {
     color: red;
 }
+
+  .player-symbol {
+    font-family: 'Mainframe';
+    font-size: 40px;
+  }
+
+  .oponent-symbol {
+    font-family: 'Mainframe';
+    font-size: 40px;
+    color: #5B13EC;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
