@@ -1,8 +1,8 @@
 p {
     color: #FE3091;
     font-family: 'Source Code Pro', monospace;
-    letter-spacing: .15em; /* Adjust as needed */
-    margin: 0;
+    letter-spacing: .10em; 
+    margin: .2rem 0 0 0;
     font-size: 16px;
     
 }
@@ -35,7 +35,7 @@ p {
   }
 
   .frozen {
-    opacity: .5;
+    opacity: .3;
   }
 
   
@@ -61,9 +61,13 @@ p {
     font-size: 40px;
   }
 
-  .oponent-symbol {
+  .opponent-symbol {
     font-family: 'Mainframe';
     font-size: 40px;
+    color: #5B13EC;
+  }
+
+  .opponent-history {
     color: #5B13EC;
   }
 

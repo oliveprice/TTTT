@@ -4,7 +4,7 @@
     <title>Tic Tac Toe Tactics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <link rel="icon" href="./resources/images/purp_sky.png">
+    <link rel="icon" href="./resources/images/designs/favicon.png">
     <link rel="stylesheet" href="./resources/style_sheets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
                         <div data-aos="flip-down"
                         data-aos-easing="linear"
                         data-aos-duration="2000">
-                        <div id="tic-tac-toe-grid">
+                        <div id="tic-tac-toe-grid" class="frozen">
                             <div class="cell disabled"> </div>
                             <div class="cell disabled "> </div>
                             <div class="cell disabled"> </div>
@@ -60,16 +60,16 @@
         
             <section class="flex-center-center">
                 <div class="command-line-terminal margin-0">
-                    <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Background">
-                    <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Background">
+                    <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Comand Line Terminal">
+                    <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Comand Line Terminal">
                     <div class="command-container">
                         <p class="margin-top-plus-2"> [INFO] WELCOME, USER.  </p> 
                         
-                            <div class="object-inliner">
-                                <p> <span class="query"> [QUERY]: </span> WOULD YOU LIKE TO PLAY AGAINST A </p>
-                                <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button>
-                                    OR A <button class="cybr-btn"> HUMAN<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN</span> </button> 
-                                </div> 
+                        <div class="object-inliner">
+                            <p> <span class="query mobile-margin-right-0"> [QUERY] WOULD YOU LIKE TO PLAY AGAINST A </p>
+                            <button class="cybr-btn btn-disabled"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button>
+                            <span class="query mobile-margin-right-0">  OR A </span> <button class="cybr-btn btn-disabled"> HUMAN?<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN?</span> </button> 
+                            </div> 
                                
                                 <p>[STATUS] CONNECTING YOU TO ANOTHER PLAYER... </p>
                                 <div class="typewriter">

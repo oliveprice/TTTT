@@ -4,7 +4,7 @@
     <title>Tic Tac Toe Tactics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <link rel="icon" href="./resources/images/purp_sky.png">
+    <link rel="icon" href="./resources/images/designs/favicon.png">
     <link rel="stylesheet" href="./resources/style_sheets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +42,7 @@
                             <div class="cell enabled "> </div>
                             <div class="cell enabled"> </div>
                             <div class="cell enabled"> </div>
-                            <div class="cell disabled">  <span class="oponent-symbol"> O </span></div>
+                            <div class="cell disabled">  <span class="opponent-symbol"> O </span></div>
                             <div class="cell enabled"> </div>
                             <div class="cell enabled"> </div>
                             <div class="cell enabled"> </div>
@@ -58,24 +58,22 @@
         
             <section class="flex-center-center">
                 <div class="command-line-terminal margin-0">
-                    <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Background">
-                    <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Background">
-                    <div class="command-container">
+                    <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Comand Line Terminal">
+                    <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Comand Line Terminal">
+                    <div class="command-container margin-top-plus-2">
                         
-                        
-                            <div class="object-inliner margin-top-plus-2">
-                                <p> <span class="query"> [QUERY]:  WOULD YOU LIKE TO PLAY AGAINST A  </span> </p> 
-                                <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button>
-                                  <p> <span class="query"> OR A </span> </p> <button class="cybr-btn"> HUMAN<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN</span> </button>
-                                </div> 
-                               
-                                <p>[STATUS] CONNECTING YOU TO ANOTHER PLAYER... </p>
-                                <p>[INFO] PLAYER FOUND. INITIALIZING GAME BOARD... </p>
-                                 <p class="action"> [INFO] YOUR TURN. MAKE YOUR FIRST MOVE.</p>
-                                <p>[STATUS] WAITING FOR OPPONENT'S MOVE...</p>
-                                <div class="typewriter">
-                                    <p class="action"> [INFO] YOUR TURN. MAKE YOUR MOVE.</p>
-                               </div>
+                         
+                         <p>[ACTION NEEDED] YOUR TURN. MAKE YOUR MOVE.</p>
+                         <p>[INFO] YOU PLACED X AT (ROW 1, COL 1).</p>
+                         <p>[STATUS] WAITING FOR OPPONENT'S MOVE...</p>
+                         <p>[INFO] OPPONENT PLACED O AT (ROW 2, COL 2).</p>
+                         <div class="typewriter">
+                         <p class="action">[ACTION NEEDED] YOUR TURN. MAKE YOUR MOVE.</p>
+                        </div>
+
+
+
+                       </div>
                         
                     </div>
                 </div>

@@ -19,7 +19,7 @@
 <body onclick="redirectToPage();">
     <script>
         function redirectToPage() {
-            window.location.href = "human.html";
+            window.location.href = "move-1.html";
         }
     </script>
     <div id="preloader"></div>
@@ -29,23 +29,27 @@
     </script>
     <main>
 
-    
-
               <section class="flex-center-center margin-bottom-plus-1 margin-top-plus-2">
                 <div class="playing-screen flex-center-center">
                     <img src="./resources/images/designs/game_screen.png" class="game-screen-image" alt="Game Screen">
                     <img src="./resources/images/designs/mobile_game_screen.png" class="mobile-game-screen-image" alt="Game Screen">
                     
-                    <section class="margin-left-0">
+                    <section>
               
-                        <div class="hero-container">
-
-                            <hgroup>
-                            <h2 class="hero glitch layers margin-0" data-text="TIC TAC TOE"><span>TIC TAC TOE</span></h2> <br>
-                            <h1 class="hero glitch layers logo" data-text="TACTICS"><span>TACTICS</span></h1>
-                            </hgroup>
-                            
+                       
+                        <div id="tic-tac-toe-grid" class="frozen">
+                            <div class="cell disabled"> <span class="player-symbol"> X </span></div>
+                            <div class="cell disabled "> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                            <div class="cell disabled"> </div>
+                    
                         </div>
+                       
                       </section>
                 
                 </div>
@@ -57,27 +61,27 @@
                     <img src="./resources/images/designs/game_terminal.png" class="background-image" alt="Comand Line Terminal">
                     <img src="./resources/images/designs/mobile_terminal.png" class="background-image-mobile" alt="Comand Line Terminal">
                     <div class="command-container">
-                        <p class="margin-top-plus-2"> [INFO] WELCOME, USER.  </p> 
                         
-                        <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button> 
-                        <span class="query mobile-margin-right-0"> OR A </span> 
-                        <a href="human.html">
-                        <button class="cybr-btn"> HUMAN?<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN?</span> </button> </a> 
-                         </div> </p>
-                    </div>
+                
+
+                            <div class="object-inliner">
+                                <p> <span class="query"> [QUERY]  SELECT DIFFICULTY LEVEL </span> </p> 
+                                <button class="cybr-btn btn-disabled"> EASY <span aria-hidden></span> <span class="cybr-btn__glitch"> EASY </span> </button>
+                                <button class="cybr-btn btn-disabled"> MEDIUM<span aria-hidden></span> <span class="cybr-btn__glitch">MEDIUM</span> </button>
+                                <button class="cybr-btn btn-disabled"> HARD <span aria-hidden></span> <span class="cybr-btn__glitch">HARD</span> </button>
+                                </div> 
+
+                            <p>[INFO] BOT INITIALIZED. INITIALIZING GAME BOARD... </p>
+                            <p> [INFO] YOU PLACED X AT (ROW 1, COL 1). </p>
+                            <p class="action"> [ACTION NEEDED] YOUR TURN. MAKE YOUR MOVE. </p>
+                                <div class="typewriter">
+                                <p>[STATUS] WAITING FOR OPPONENT'S MOVE...</p>
+                               </div>
+                        
+                    
                 </div>
             </section>
         </div>
     </main>
 </body>
 </html>
-
-
-
-
-
-
-    </section>
-    
-
-

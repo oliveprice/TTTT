@@ -16,20 +16,13 @@
 
 
 
-<body onclick="redirectToPage();">
-    <script>
-        function redirectToPage() {
-            window.location.href = "human.html";
-        }
-    </script>
+<body>
     <div id="preloader"></div>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <main>
-
-    
 
               <section class="flex-center-center margin-bottom-plus-1 margin-top-plus-2">
                 <div class="playing-screen flex-center-center">
@@ -39,13 +32,12 @@
                     <section class="margin-left-0">
               
                         <div class="hero-container">
-
-                            <hgroup>
-                            <h2 class="hero glitch layers margin-0" data-text="TIC TAC TOE"><span>TIC TAC TOE</span></h2> <br>
-                            <h1 class="hero glitch layers logo" data-text="TACTICS"><span>TACTICS</span></h1>
-                            </hgroup>
-                            
+                         <hgroup>
+                          <h2 class="hero glitch layers margin-0" data-text="TIC TAC TOE"><span>TIC TAC TOE</span></h2> <br>
+                          <h1 class="hero glitch layers logo" data-text="TACTICS"><span>TACTICS</span></h1>
+                         </hgroup>
                         </div>
+                        
                       </section>
                 
                 </div>
@@ -59,11 +51,25 @@
                     <div class="command-container">
                         <p class="margin-top-plus-2"> [INFO] WELCOME, USER.  </p> 
                         
-                        <button class="cybr-btn"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button> 
-                        <span class="query mobile-margin-right-0"> OR A </span> 
-                        <a href="human.html">
-                        <button class="cybr-btn"> HUMAN?<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN?</span> </button> </a> 
-                         </div> </p>
+                        <div class="object-inliner">
+                            <p> <span class="query mobile-margin-right-0"> [QUERY]  WOULD YOU LIKE TO PLAY AGAINST A  </span> </p> 
+                            <button class="cybr-btn btn-disabled"> BOT<span aria-hidden></span> <span class="cybr-btn__glitch">BOT</span> </button>
+                              <p> <span class="query mobile-margin-right-0"> OR A </span> </p> <button class="cybr-btn btn-disabled"> HUMAN?<span aria-hidden></span> <span class="cybr-btn__glitch">HUMAN?</span> </button>
+                            </div> 
+                      
+                        <div class="typewriter">
+                            <div class="object-inliner">
+                                <p> <span class="query mobile-margin-right-0"> [QUERY] SELECT DIFFICULTY LEVEL </span>
+                                        <a href="bot-ready.html">
+                                        <button class="cybr-btn"> EASY <span aria-hidden></span> <span class="cybr-btn__glitch"> EASY </span> </button> </a>
+                                        
+                                        <a href="bot-ready.html">
+                                        <button class="cybr-btn"> MEDIUM <span aria-hidden></span> <span class="cybr-btn__glitch"> MEDIUM </span> </button> </a>
+                                        
+                                        <a href="bot-ready.html">
+                                        <button class="cybr-btn"> HARD <span aria-hidden></span> <span class="cybr-btn__glitch"> HARD </span> </button> </a> 
+                                     </div> </p>
+                        </div>
                     </div>
                 </div>
             </section>

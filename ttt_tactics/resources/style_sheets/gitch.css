@@ -24,7 +24,7 @@ body {
   }
   
   .hero {
-    font-size: 24px;
+    font-size: 19px;
     line-height: 1;
     display: inline-block;
     color:  #FE3091;
@@ -541,7 +541,7 @@ body {
     text-transform: uppercase;
     font-size: var(--font-size);
     outline: transparent;
-    letter-spacing: 2px;
+    letter-spacing: .1rem;
     position: relative;
     font-weight: 700;
     border: 0;
@@ -554,6 +554,11 @@ body {
   }
   .cybr-btn:hover {
     --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 0.8%));
+  }
+  .btn-disabled {
+    cursor: not-allowed;
+    background-color: black;
+    color: red;
   }
   .cybr-btn:active {
     --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 0.6%));
